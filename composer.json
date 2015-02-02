@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "tael\\Watcher\\": "src/"
+      "tael\\": "src/"
     }
   },
   "require-dev": {

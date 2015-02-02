@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'BCNX\\Watcher\\' => array($baseDir . '/src'),
+    'tael\\' => array($baseDir . '/src'),
 );

@@ -13,7 +13,7 @@ namespace {
      * Date: 15. 1. 15.
      * Time: 오후 7:33
      */
-    use \Yellostory\Watcher as Watcher;
+    use tael\Watcher;
     use \Test\Computer;
 
     class WatcherTest extends PHPUnit_Framework_TestCase
@@ -134,7 +134,7 @@ namespace {
 
         public function testRetrieveAfterFunction()
         {
-            $getFunctions = new \ReflectionMethod('\BCNX\Watcher', 'getFunctions');
+            $getFunctions = new \ReflectionMethod(tael\Watcher::class, 'getFunctions');
 
             Watcher::on('FooDummy', 'bar', 'echoB');
             self::assertEquals(['echoB'], $getFunctions->invoke(null, 'FooDummy', 'bar'));
