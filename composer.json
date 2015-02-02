@@ -1,0 +1,27 @@
+{
+  "name": "yellostory/watcher",
+  "type": "library",
+  "description": "watcher class",
+  "minimum-stability": "stable",
+  "license": "Beerware",
+  "authors": [
+    {
+      "name": "TaeL Kim",
+      "email": "tikim@yellostory.co.kr",
+      "role": "lead"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "ext-runkit": "1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "BCNX\\Watcher\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "herrera-io/runkit-hint": "1.*"
+  }
+}
