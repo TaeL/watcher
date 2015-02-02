@@ -1,5 +1,5 @@
 {
-  "name": "yellostory/watcher",
+  "name": "tael/watcher",
   "type": "library",
   "description": "watcher class",
   "minimum-stability": "stable",
@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "BCNX\\Watcher\\": "src/"
+      "tael\\Watcher\\": "src/"
     }
   },
   "require-dev": {
